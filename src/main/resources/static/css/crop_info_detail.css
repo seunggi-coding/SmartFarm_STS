@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box !important;
+}
+
+#crop_info_head {
+	margin-bottom: 80px !important;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px !important;
+	margin: 20px 0 40px !important;
+	border-bottom: 2px solid;
+	border-bottom-color: #00b359;
+	padding: 15px 0;
+}
+
+#crop_name {
+	color: #ff4f4f;
+}
+
+#crop_info_container {
+	margin: 50px auto;
+	width: 90%;
+}
+
+#buttons {
+	width: 100%;
+}
+
+.btn {
+	width: 100% !important;
+	margin-bottom: 10px;
+}
+
+.btn:first-child {
+	margin-top: 50px;
+}
+
+.card {
+	width: 280px !important;
+	height: 310px !important;
+	margin: 0 auto;
+}
+
+.card img {
+	height: 190px;
+}
+
+.card-title {
+	text-align: center;
+	line-height: 3.5;
+}
+
+#demo1 {
+	padding: 0 10px 15px;
+}
+
+#demo2 {
+	padding: 0 10px 15px;
+}
+
+#demo3 {
+	padding: 0 10px 15px;
+}
+
+
+@media all and (min-width:768px) {
+	#card_box {
+		width: 370px;
+	}
+	#detail_info {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+	#buttons {
+		width: 300px;
+		margin-right: 20px;
+	}
+	.btn:first-child {
+		margin-top: 10px;
+	}
+	.card {
+		margin-left: 20px;
+	}
+}
+
+@media all and (min-width:1024px) {
+	.card {
+		margin-left: 50px;
+		width: 330px !important;
+		height: 300px !important;
+	}
+	#buttons {
+		width: 400px;
+		margin-right: 50px;
+	}
+}

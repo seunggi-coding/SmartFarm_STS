@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* 모바일 버전 */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box !important;
+}
+
+#board_detail_container {
+	padding-top: 30px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px !important;
+	margin: 20px 0 100px !important;
+	border-bottom: 2px solid;
+	border-bottom-color: #00b359;
+	padding: 15px 0;
+}
+
+h3 {
+	font-size: 20px !important;
+	margin-bottom: 0 !important;
+}
+
+#content_head {
+	border-bottom: 2px solid #b1d690;
+	margin-bottom: 30px;
+	padding: 20px 10px 10px;
+}
+
+#content_head div {
+	padding: 15px 0 10px;
+	font-size: 14px !important;
+}
+
+#content_detail {
+	padding: 30px 20px;
+	border-bottom: 2px solid #b1d690;
+	margin-bottom: 20px;
+}
+#detail_buttons {
+	float: right;
+	margin-bottom: 30px;
+}
+.btn {
+	color: black !important;
+	background-color: #adb5bd !important;
+	border-color: #adb5bd !important;
+}
+.btn:hover {
+	color: white !important;
+	background-color: #59646f !important;
+	border-color: #59646f !important;
+}
+
+/* 태블릿 부터 PC */
+@media all and (min-width:768px) {
+	h2 {
+		text-align: center;
+		font-size: 30px !important;
+		margin: 20px 0 100px !important;
+		border-bottom: 2px solid;
+		border-bottom-color: #00b359;
+		padding: 15px 0;
+	}
+}
